@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SinglePlayerResult"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/final_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player wins"
+        android:textSize="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINAL SCORE"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/final_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAYER1:0 PLAYER2:0"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/playagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY AGAIN"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/gotohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO HOME"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
